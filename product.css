@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+.product{
+    height: 50vh;
+    width: 100%;
+    background-image: url('aset/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.6);
+}
+
+.navbar{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.5);
+}
+
+.navbar-brand{
+    display: none;
+}
+.nav-link{
+    margin-right:20px;
+    font-weight: bolder;
+    color: rgb(253, 241, 70) !important;
+    text-shadow: 0px 5px 5px rgb(0, 0, 0,0.5);
+}
+.navbar-nav{
+    margin-right: 480px;
+}
+.nav-link:hover{
+    text-shadow: 0px 10px 10px rgb(237, 11, 11);
+    transition: 1s;
+}
+
+.sticky{
+    transition: 1s;
+    padding: 10px 0px;
+    background: rgb(87, 87, 87);
+    box-shadow: 0 3px 4px rgba(29, 11, 11, 0.349); ;
+}
+
+.shop{
+    position: absolute;
+    top:15%;
+    left: 36%;
+    transform: translateX(-50px);
+    text-align: start;
+    color: #fff;
+}
+.shop h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+.shop h3{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+.shop h3 span{
+    font-size: 50px;
+    color: rgb(253, 241, 70);
+    text-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+#tombolshop{
+    position: absolute;
+    left: 30%;
+    margin-top: 30px;
+}
+
+.kartu{
+    margin-top: 50px;
+}
+
+.card{
+    width: 50px;
+    margin: 20px 30px;
+    height: 450px;
+    border-style: outset;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.2);
+}
+
+.card img:hover{
+    filter: brightness(50%);
+}
+
+.card a{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.card img{
+    width: 248px;
+    height: 190px;
+    margin-left: -12px;
+}
+
+.card h5,p{
+    margin-left: -10px;
+    font-weight: bold;
+}
+
+.btn{
+    margin-left: -10px;
+    margin-top: 50px;
+}
+
+@media (min-width:992px){
+
+    .shop h1{
+        font-size: 100px;
+        font-weight: bolder;
+        text-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+    }
+
+    #tombolshop{
+        position: absolute;
+        left: 45%;
+        margin-top: 30px;
+    }
+
+    
+}
+

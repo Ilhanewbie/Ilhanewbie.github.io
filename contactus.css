@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-image: url('aset/background1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.navbar-brand{
+    display: none;
+}
+.nav-link{
+    margin-right:20px;
+    font-weight: bolder;
+}
+.navbar-nav{
+    margin-right: 480px;
+}
+.nav-link:hover{
+    text-shadow: 0px 10px 10px rgb(237, 11, 11);
+    transition: 1s;
+}
+
+.formulir{
+    position: relative;
+    top: 20%;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
